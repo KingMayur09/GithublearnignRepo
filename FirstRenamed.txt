@@ -1,0 +1,4 @@
+This is first version of git learning .
+ I want to play with GIT learning platform 
+changed
+changed to observed the behvaiour of direct commit

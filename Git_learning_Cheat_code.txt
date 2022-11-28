@@ -1,0 +1,31 @@
+1. $ git config --global user.name "Mayur"  // Tell git your your name who is going to change the source file or code
+2. $ git config --global user.email "mayurjb007@gmail.com"  --> user email id
+3 .$ git config list  --> tell us user name and email
+4 $ git status  --> to check the status of repo 
+5.$ git init   --> to initialised the new repo
+6.$ git add --a  ---> add all file to track and maintain
+7.$ git commint -m ""Write the comment "  -->commit the change with remarks
+8.$ git log   ---> tell us the all commit and their authors
+9 $ git add file_name   --> to adding indivisual file to staging stage
+10 $ rm -rf  .git  --> dangerous command  --> delete the  .git file 
+11 $ pwd  present working directory
+12 $ ls list the content in folder
+13 $ cd --> change directory
+14 $ git clone "repository link like github repo "
+15 $ touch .gitignore --> create he .gitignore file --> add the file which need to be ignore -->if we made any changes to added file in .gitignore it wont shows in git status  ,,mostly it is use where we want to ignore the file --> example  error.log files  --> *.log add to .gitignore -->  will ignore the all .log files.
+16 git ignore by default empty folder.
+17. git ignore very vast topic there many other uses
+18. git diff   ---> compare working directory to staging area 
+19  git diff --staged  --> compare prev commit to cur staged area
+20  git commit -a -m    ---> commit directly tracked but unstaged files
+21  git rm filename --> delete the filename and put it in statging area
+22  git mv file1 file2   --> rename the file1 to file2 and stagged it ready to commit	
+23  git log -p   ---> gives changes occured in past
+24 git log  -n  ---> n could be the number 
+25 git log  --stat  ---> shorts summary of last commit
+26 git log --pretty=oneline   ---> commit appears in line
+27 git log --pretty=short    -----> commit appears in short
+28 git log --pretty=full     ---.> commit appears in lil info
+29 git log --since=X.time   --> X couble the numebr and time could days,weeks ,years or months
+30 git log --pretty=format:" various formatting using git cms formmating website"
+31 git commit amend ---> open a new window --->add your changes then press I and ESC and colon : and then wq  ----> so that your changes will reflect in last/which commit you want to
