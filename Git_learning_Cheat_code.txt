@@ -16,7 +16,7 @@
 16 git ignore by default empty folder.
 17. git ignore very vast topic there many other uses
 18. git diff   ---> compare working directory to staging area 
-19  git diff --staged  --> compare prev commit to cur staged area
+19  git diff --staged  --> compare prev commit to cur strestoaged area
 20  git commit -a -m    ---> commit directly tracked but unstaged files
 21  git rm filename --> delete the filename and put it in statging area
 22  git mv file1 file2   --> rename the file1 to file2 and stagged it ready to commit	
@@ -28,4 +28,7 @@
 28 git log --pretty=full     ---.> commit appears in lil info
 29 git log --since=X.time   --> X couble the numebr and time could days,weeks ,years or months
 30 git log --pretty=format:" various formatting using git cms formmating website"
-31 git commit amend ---> open a new window --->add your changes then press I and ESC and colon : and then wq  ----> so that your changes will reflect in last/which commit you want to
+31 git commit amend ---> open a new window --->add your changes then press I and ESC and colon : and then wq  ----> so that your changes will reflect in last/which commit you want to do
+32 git restore filename ---> revert the changes 
+33 git restore --staged filename --> unstaged the staged file 
+34 git checkout  --filename ---> revert the changes like prevoius commit lil dangerous
