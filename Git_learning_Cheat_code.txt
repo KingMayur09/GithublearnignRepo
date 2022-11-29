@@ -32,3 +32,8 @@
 32 git restore filename ---> revert the changes 
 33 git restore --staged filename --> unstaged the staged file 
 34 git checkout  --filename ---> revert the changes like prevoius commit lil dangerous
+35 git checkout -f  ----> reert bac to prev commit of all files
+
+---------------------------------------------------------------------------------------------------------------w;-
+Working with Remote repository  
+
